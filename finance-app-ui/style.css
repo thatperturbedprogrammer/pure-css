@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(255, 241, 46);
+    font-family: "Signika Negative", sans-serif;
+
+}
+
+.top-icons {
+    height: 10%; 
+    margin-right: 15px;
+}
+
+.top-icons .icon-left  {
+    float: left;
+    padding: 12px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.top-icons .icon-right  {
+    float: right;
+    width: em;
+    height: 2em;
+    background-color: rgb(250, 250, 250);
+    padding: 12px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.main-text {
+    display: flex;
+    width: 100%;
+    font-size: 5rem;
+    margin: 5px;
+}
+
+
+.balance-section{
+    display: flex;
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+.balance-section span {
+    display: block;
+    font-size: 1.2rem;
+    margin-left: 3px;
+}
+
+.balance-section div {
+    float: right;
+    
+}
+
+.balance-section .img-right1 {
+    background-color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 25rem;
+    margin-right: 0;
+    z-index: -1;
+}
+
+.balance-section .img-right2 {
+    background-color: rgb(0, 0, 0);
+    width: 3rem;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+/* Details section */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.details-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.white-box {
+    width: 100%;
+    height: 100%;
+    background-color: #fff9e8;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 2.5rem;
+    display: block;
+    margin: 3px;
+    border: 5px solid black;
+ }
+
+ .white-box img {
+    width: 3rem;
+    height: 4rem;
+    margin: 16px;
+ }
+
+.last-box {
+    width: 45%;
+    height: 15rem;
+    padding: 2em;
+}
+
+h3 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
